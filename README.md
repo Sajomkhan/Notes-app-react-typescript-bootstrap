@@ -4,7 +4,7 @@
 <!-- ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/ -->
 <!-- [![image](app-image.JPG)](https://food-shop-app-react-tailwined.netlify.app/) -->
 
-![Screenshot](screenshot.JPEG)
+![Screenshot](screenshot.JPG)
 
 <!-- ### It's a Full Mobile Responsive Web Page -->
 
@@ -33,9 +33,9 @@
         crossorigin="anonymous"
     />
 
-#### In case of TypeScript if you feel problem bootstrap runtime pls add below code in "react-app-env.d.ts" folder:
+### In case of TypeScript if you feel problem bootstrap runtime pls add below code in "react-app-env.d.ts" folder:
 
-In <react-app-env.d.ts> folder type:
+#### In <react-app-env.d.ts> folder type:
         declare module "react/jsx-runtime" {
             export default any;
         }
