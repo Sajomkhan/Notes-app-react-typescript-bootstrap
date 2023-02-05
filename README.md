@@ -2,9 +2,9 @@
 <!-- ### It's a Full Mobile Responsive App -->
 
 <!-- ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/ -->
-[![image](screenshot.JPG)](https://food-shop-app-react-tailwined.netlify.app/)
+<!-- [![image](screenshot.JPG)](https://food-shop-app-react-tailwined.netlify.app/) -->
 
-![Screenshot](screenshot.JPG)
+![Screenshot](/public/screenshot.JPG)
 
 <!-- ### It's a Full Mobile Responsive Web Page -->
 
