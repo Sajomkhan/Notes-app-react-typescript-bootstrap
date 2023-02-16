@@ -1,82 +1,70 @@
-# A Notes App with React-TypeScript-Bootstrap
-<!-- ### It's a Full Mobile Responsive App -->
+# Getting Started with Create React App
 
-<!-- ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/ -->
-<!-- [![image](screenshot.JPG)](https://food-shop-app-react-tailwined.netlify.app/) -->
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Screenshot](/public/ScreenShot.JPG)
+## Available Scripts
 
-<!-- ### It's a Full Mobile Responsive Web Page -->
+In the project directory, you can run:
 
-<!-- #### Add image with link in Readme Directory:
-[![name](image link)](link to your URL) -->
+### `npm start`
 
-### What I use here:
-* React
-* Bootstrap
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### To start a new Create React App, you can run:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-    npx create-react-app my-app
-    yarn create react-app my-app
+### `npm test`
 
-#### To install React-Bootstrap:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    npm install react-bootstrap bootstrap
-    
-#### Then following line can be included in your src/index.js or App.js file
+### `npm run build`
 
-    import 'bootstrap/dist/css/bootstrap.min.css';
- 
-#####  Or, If you want to use CDN to avoied installation...
-#### Placing CDN in 'public > index.html' folder for include the latest styles Bootstrap CDN:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-        crossorigin="anonymous"
-    />
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### In case of TypeScript if you feel problem bootstrap runtime pls add below code in "react-app-env.d.ts" folder:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### In <react-app-env.d.ts> folder type:
-        declare module "react/jsx-runtime" {
-            export default any;
-        }
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<!-- ### For install Tailwind you have to follow 4 steps, such as...
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Install Tailwind CSS by command line:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-    npm install -D tailwindcss
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Generate your tailwind.config.js file:
+## Learn More
 
-     npx tailwindcss init
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-#### Configure your template paths
-#### Add the paths to all of your template files in your tailwind.config.js file:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    content: [
-      "./src/**/*.{js,jsx,ts,tsx}",
-    ],
-  
- #### Add the Tailwind directives to your CSS:
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
- 
- ### Install & import React-Icon:
-    npm i react-icons --save
-    import { FaBars, FaTimes, } from 'react-icons/fa'
+### Code Splitting
 
- ### Install & import React-Icon:
-    npm i react-icons --save
-    import { FaBars, FaTimes, } from 'react-icons/fa'
- 
- 
- ### It's a Full Mobile Responsive Web Page
-![Screenshot](app-image-mobile.JPG)
-  -->
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
