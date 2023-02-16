@@ -27,7 +27,7 @@
     
 #### Then following line can be included in your src/index.js or App.js file
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+    import 'bootstrap/dist/css/bootstrap.min.css';
  
 #####  Or, If you want to use CDN to avoied installation...
 #### Placing CDN in 'public > index.html' folder for include the latest styles Bootstrap CDN:
