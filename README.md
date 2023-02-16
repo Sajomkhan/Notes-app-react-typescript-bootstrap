@@ -4,7 +4,7 @@
 <!-- ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/ -->
 <!-- [![image](screenshot.JPG)](https://food-shop-app-react-tailwined.netlify.app/) -->
 
-![Screenshot](/public/screenshot.JPG)
+![Screenshot](/public/ScreenShot.JPG)
 
 <!-- ### It's a Full Mobile Responsive Web Page -->
 
@@ -13,13 +13,12 @@
 
 ### What I use here:
 * React
-* TypeScript
 * Bootstrap
 
-#### To start a new Create React App project with TypeScript, you can run:
+#### To start a new Create React App, you can run:
 
-    npx create-react-app my-app --template typescript
-    yarn create react-app my-app --template typescript
+    npx create-react-app my-app
+    yarn create react-app my-app
 
 #### To install React-Bootstrap:
 
